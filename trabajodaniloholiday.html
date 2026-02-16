@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Panel Supervisor - Órdenes</title>
+<link rel="stylesheet" href="supervisor.css">
+</head>
+
+<body>
+
+<div class="todito">
+    <aside class="barrad">
+        <h2>Holiday Inn</h2>
+        <ul>
+            <li>Dashboard</li>
+            <li>Crear Orden</li>
+            <li>Órdenes</li>
+            <li>Técnicos</li>
+            <li>Reportes</li>
+            <li>Cerrar Sesión</li>
+        </ul>
+    </aside>
+    <main class="content">
+        <header class="topbar">
+            <h1>Panel del Supervisor</h1>
+            <button class="btn">+ Nueva Orden</button>
+        </header>
+        <section class="tabla-contenedor">
+            <table>
+                <thead>
+                    <tr>
+                        <th>ID</th>
+                        <th>Área</th>
+                        <th>Descripción</th>
+                        <th>Técnico</th>
+                        <th>Estado</th>
+                        <th>Acción</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>001</td>
+                        <td>Habitación 203</td>
+                        <td>Aire acondicionado dañado</td>
+                        <td>Carlos</td>
+                        <td class="pendiente">Pendiente</td>
+                        <td><button class="ver">Ver</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>002</td>
+                        <td>Cocina</td>
+                        <td>Fuga de agua</td>
+                        <td>Ana</td>
+                        <td class="proceso">En proceso</td>
+                        <td><button class="ver">Ver</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>003</td>
+                        <td>Lobby</td>
+                        <td>Lámpara dañada</td>
+                        <td>Juan</td>
+                        <td class="finalizado">Finalizado</td>
+                        <td><button class="ver">Ver</button></td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </section>
+
+    </main>
+
+
