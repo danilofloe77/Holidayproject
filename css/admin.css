@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    font-family: arial, sans-serif;
+}
+
+.contenedor {
+    width: 20vw;
+    height: 100vh;
+}
+
+.columnaIzquierda {
+    width: 250px;
+    height: 100%;
+    background-color: #0f4d32;
+}
+
+.logo {
+    width: 150px;
+    border-radius: 12%;
+    height: auto;
+    object-fit: contain;
+}
+
+.menu {
+    margin-top: 100px;
+    gap: 15px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.contenido {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.linea {
+    height: 7vw;
+    border-bottom: 5px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.titulo {
+    font-weight: bold;
+    font-size: 2.2rem;
+    color: #0f4d32;
+}
+
+.perfil {
+    position: absolute;
+    right: 20px;
+    background-color: #0f4d32;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.seccionPerfil {
+    width: calc(100vw - 250px);
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tituloPerfil {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #0f4d32;
+    margin-bottom: 20px;
+}
+
+.cuadroCentro {
+    width: 70%;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: white;
+}
