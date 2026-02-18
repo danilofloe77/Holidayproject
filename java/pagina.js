@@ -5,7 +5,7 @@ function iniciarSesion() {
         window.location.href = "administrador.html";
     }
     else if (correo === "operario@correo.com" && clave === "123") {
-        window.location.href = ".html";
+        window.location.href = "Proyecto-Electivo.html";
     }
     else if (correo === "func@correo.com" && clave === "123") {
         window.location.href = ".html";

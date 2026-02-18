@@ -80,7 +80,7 @@ section {
   position: absolute;
   width: 80px;
   right: 30px;
-  top: 25px;
+  top: 20px;
   background-color: #0f4d32;
   color: white;
   border: none;
@@ -127,12 +127,12 @@ th {
     background-color: #0f4d32;
     color: white;
     padding: 10px;
+    
 }
 
 td {
     padding: 10px;
-    border-bottom: 1px solid #ccc;
-    text-align: center;
+    align-items: center;
 }
 
 tr:hover {
