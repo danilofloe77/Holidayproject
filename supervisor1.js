@@ -82,7 +82,9 @@ function generarHabitaciones(piso, inicio, fin) {
 }
 
 
-
+function cerrarSesion(){
+    window.location.href = "pagina.html"
+}
 
 
 
